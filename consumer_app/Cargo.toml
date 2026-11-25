@@ -1,0 +1,10 @@
+[workspace]
+
+[package]
+name = "pathmatch-consumer"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+buildstax-pathmatch = { path = "../package" }

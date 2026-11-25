@@ -1,0 +1,10 @@
+[package]
+name = "buildstax-pathmatch"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Dependency-free UTF-8 glob and root ignore matching"
+
+[[test]]
+name = "integration"
+path = "tests/integration/main.rs"
